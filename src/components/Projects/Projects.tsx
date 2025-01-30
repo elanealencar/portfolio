@@ -10,8 +10,8 @@ const Projects = () => {
             img: project01,
             title: "Portfólio pessoal",
             tech: "HTML | CSS | JavaScript | React | Vite",
-            projectLink: "https://portfolio-theta.vercel.app",
-            repoLink: "https://github.com/elanealencar/calc-imc",
+            projectLink: "https://portfolio-two-phi-85.vercel.app/",
+            repoLink: "https://github.com/elanealencar/portfolio/",
           },
           {
             img: project02,
