@@ -42,6 +42,23 @@
 
 
 .habilities-item img {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .habilities-item  {
+        width: 80px;
+        height: 80px;
+    }
+
+    .habilities-item img {
+    width: 60px;
+    height: 60px;
+}
+
+    .habilities-container {
+        font-size: 10px;
+}
 }
