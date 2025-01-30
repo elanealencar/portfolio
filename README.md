@@ -50,9 +50,9 @@ O site foi desenvolvido utilizando **React + Vite** para garantir performance e 
 │── 📄 tsconfig.json
 │── 📄 vite.config.ts
 │── 📄 README.md
+```
 
-
-🚀 Como Rodar o Projeto Localmente
+## 🚀 Como Rodar o Projeto Localmente
 
 1️⃣ Clonar o Repositório
 sh
@@ -79,7 +79,7 @@ npm run build
 Depois, envie os arquivos da pasta dist para qualquer serviço de hospedagem.
 
 
-📞 Contato
+## 📞 Contato
 Se quiser falar comigo, entre em contato:
 📧 Email: dev.elanealencar@gmail.com
 🔗 LinkedIn: https://linkedin.com/in/elanealencar
