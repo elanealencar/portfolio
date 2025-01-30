@@ -4,11 +4,9 @@ import arrow from '../../assets/icons/icon-arrow.png';
 
 const Initial = () => {
     return (
-        <div className="initial-section" id="initial-section">
+        <section className="initial-section" id="initial-section">
             <div className="text-container">
-                <div>
-                    <img src={iconbot}></img>
-                </div>
+                <img src={iconbot} alt="Ícone bot" className="bot-icon" />
                 <p>Olá, eu sou</p>
                 <h1>Elane</h1>
                 <h1>Alencar</h1>
@@ -17,12 +15,11 @@ const Initial = () => {
                 <button className="initial-button"
                     onClick={() => window.open("https://linkedin.com/in/elanealencar", "_blank")}>  
                     <span className="button-text">Linkedin</span>
-                    <div className="button-arrow"><img src={arrow}></img></div>
+                    <img src={arrow} alt="Ícone seta" className="button-arrow" />
                 </button>
-
             </div>
             
-        </div>
+        </section>
     );
 };
 
