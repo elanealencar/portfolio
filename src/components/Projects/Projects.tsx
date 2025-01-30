@@ -28,14 +28,10 @@ const Projects = () => {
         <div className="projects-section" id="projects-section">
             <h1>Projetos</h1>
                 <div className="projects-cards">
-                    {projectsData.map((project, index) => (
+                    {projectsData.map((project) => (
                         <ProjectCard 
-                        key={index}
-                        img={project.img}
-                        title={project.title}
-                        tech={project.tech}
-                        projectLink={project.projectLink}
-                        repoLink={project.repoLink}
+                        key={project.title}
+                        {...project}
                         />
                     ))}
                 </div>

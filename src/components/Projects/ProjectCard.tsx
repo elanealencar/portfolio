@@ -15,11 +15,15 @@ const ProjectCard = ({ img, title, tech, projectLink, repoLink }: ProjectCardPro
             <div className="projects-tech">{tech}</div>
             <div className="projects-repositories">
                 <button className="button-projects"
-                onClick={() => window.open(projectLink, "_blank")}>
-                Acessar o projeto</button>
+                onClick={() => window.open(projectLink, "_blank")}
+                >
+                Acessar o projeto
+                </button>
                 <button className="button-repositories"
-                onClick={() => window.open(repoLink, "_blank")}>
-                Acessar o Repositório</button>
+                onClick={() => window.open(repoLink, "_blank")}
+                >
+                Acessar o Repositório
+                </button>
             </div>
         </div>
     );
