@@ -1,0 +1,76 @@
+.projects-section {
+    padding-top: 40px;
+    background-color: #1c2545;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.projects-section h1 {
+    font-size: 45px;
+    padding: 20px;
+    color: #36e9fd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.projects-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    justify-content: center;  
+    align-items: center; 
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.projects-card {
+    width: 400px;
+    padding: 5px;
+}
+
+.projects-card img {
+    width: 400px;
+    height: 200px;
+    border: 1px solid white;
+
+}
+
+.projects-title {
+    font-size: 14px;  
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+.projects-tech {
+    font-size: 12px; 
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.projects-repositories {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.button-projects, .button-repositories {
+    color: white;
+    background-color: #206e95;
+    font-size: 12px; 
+    font-weight: bold;
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.button-projects:hover, .button-repositories:hover {
+    background-color: #36e9fd;   
+    color: black 
+}

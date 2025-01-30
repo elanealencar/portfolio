@@ -1,0 +1,46 @@
+import './Projects.css';
+import project01 from '../../assets/images/portfolio.png';
+import project02 from '../../assets/images/imc.png';
+import ProjectCard from './ProjectCard';
+
+const Projects = () => {
+
+    const projectsData = [
+        {
+            img: project01,
+            title: "Portfólio pessoal",
+            tech: "HTML | CSS | JavaScript | React | Vite",
+            projectLink: "https://portfolio-theta.vercel.app",
+            repoLink: "https://github.com/elanealencar/calc-imc",
+          },
+          {
+            img: project02,
+            title: "Calculadora de IMC",
+            tech: "HTML | CSS Modules | Typescript | React | Vite",
+            projectLink: "https://calc-imc-theta.vercel.app",
+            repoLink: "https://github.com/elanealencar/calc-imc",
+          },
+          
+    ];
+
+    
+    return (
+        <div className="projects-section" id="projects-section">
+            <h1>Projetos</h1>
+                <div className="projects-cards">
+                    {projectsData.map((project, index) => (
+                        <ProjectCard 
+                        key={index}
+                        img={project.img}
+                        title={project.title}
+                        tech={project.tech}
+                        projectLink={project.projectLink}
+                        repoLink={project.repoLink}
+                        />
+                    ))}
+                </div>
+        </div>
+    );
+};
+
+export default Projects;
