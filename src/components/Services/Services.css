@@ -15,6 +15,7 @@
 .services-container {
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 
 .services-text {
@@ -22,7 +23,7 @@
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    margin-right: 150px;
+    
 }
 
 .services-text p {
@@ -33,9 +34,51 @@
 .services-image {
     height: 300px;
     width: 300px;
-    margin-left: 150px;
     border-radius: 50%;
     border: 3px solid #36e9fd;
     background-image: url("../../assets/images/laptop.webp");
     background-size: cover;
+}
+
+@media (max-width: 780px) {
+    .services-container {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+
+    .services-text p {
+        font-size: 20px;
+
+    }
+
+    .services-image {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .services-section h1 {
+        font-size: 40px;
+    }
+    .services-container {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+
+    .services-text p {
+        font-size: 14px;
+
+    }
+
+    .services-image {
+        height: 150px;
+        width: 150px;
+    }
 }

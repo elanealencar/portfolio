@@ -16,7 +16,7 @@ const Footer = () => {
             <p>pela sua visita!</p>
             <div className="footer-contact">
                 <div className="footer-contact-item">
-                    <a href="mailto:exemplo@email.com">
+                    <a href="mailto:dev.elanealencar@email.com">
                         <img src={iconmail}></img>
                         <h3>E-mail</h3>
                     </a>
