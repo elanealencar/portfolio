@@ -3,8 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
-    padding-left: 100px;
+    padding: 20px 100px ;
     background-color: #1c2545;
 
 }
@@ -18,29 +17,62 @@
 
 .menu-right {
     display: flex;
-    gap: 60px;
+    gap: 40px;
     font-size: 18px;
     list-style: none;
 }
 
-.menu-right li {
+
+.menu-right li a {
     text-decoration: none;
-    list-style: none;
+    color: white;
     font-weight: bold;
+    transition: color 0.5s ease;
 }
 
 .menu-right li a:hover {
     color: #36e9fd;
-    border-radius: 10px;
-    padding: 10px 1px;
-    text-decoration: none;
-    list-style: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-
 }
 
-.menu-right a {
-    text-decoration: none;
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
     color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Tablet e Mobile (até 768px) */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .menu-right {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #1c2545;
+        width: 200px;
+        padding: 10px;
+    }
+
+
+    .menu-right.open {
+        display: flex; 
+    }
+
+    .menu-right li {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .menu-right li:hover {
+        padding: 10px 0;
+        text-align: center;
+    }
 }
