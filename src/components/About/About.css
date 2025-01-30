@@ -14,8 +14,8 @@
 .about-section .about-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    padding: 30px 0px 30px 0px;
-    line-height: 40px;
+    padding: 20px 0px;
+    line-height: 1.8;
 }
 
 .about-text {
@@ -25,6 +25,7 @@
     text-align: center;
     margin: 0 auto;
 }
+
 
 .about-section .about-graduate {
     font-family: 'DM Sans', sans-serif;
@@ -49,6 +50,8 @@
 
 .about-contact-image img {
     height: 150px;
+    display: block;
+    margin: 0 auto;
 }
 
 .about-contact-item h3 {
@@ -61,4 +64,65 @@
 
 .about-contact-item a {
     text-decoration: none;
+}
+
+/* Tablet - Menor que 780px */
+@media (max-width: 780px) {
+    .about-section h1 {
+        font-size: 40px; 
+    }
+
+    .about-section .about-text {
+        font-size: 22px; 
+        width: 90%; /
+    }
+
+    .about-contact {
+        flex-direction: row;
+    }
+
+    .about-contact-image img {
+        height: 120px;
+    }
+
+    .about-contact-item h3 {
+        font-size: 18px;
+    }
+
+    .about-graduate {
+        font-size: 16px;
+    }
+}
+
+/* Dispositivos Móveis - Menor de 480px */
+@media (max-width: 480px) {
+    .about-section h1 {
+        font-size: 32px; 
+    }
+
+    .about-section .about-text {
+        font-size: 14px;
+        width: 90%; 
+    }
+
+    .about-contact {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-contact-image img {
+        height: 100px;
+    }
+
+    .about-contact-item h3 {
+        font-size: 16px;
+    }
+
+    .about-contact-item img {
+        width: 40px;
+    }
+
+    .about-graduate {
+        font-size: 14px;
+    }
 }
