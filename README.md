@@ -5,7 +5,7 @@
 Este é o meu portfólio pessoal, onde apresento meus projetos, habilidades e informações sobre minha trajetória como desenvolvedora. 
 O site foi desenvolvido utilizando **React + Vite** para garantir performance e modularidade.  
 
-🔗 **Acesse aqui:** [Link do Portfólio](https://portfolio-theta.vercel.app)  
+🔗 **Acesse aqui:** [Link do Portfólio](https://portfolio-two-phi-85.vercel.app)  
 
 ## 🖼️ Preview do Portfólio  
 <!-- Adicione uma captura de tela do seu portfólio -->
