@@ -11,8 +11,9 @@ const About = () => {
         <section className="about-section" id="about-section">
             <h1>Sobre Mim</h1>
             <div className="about-text">
-                <p>Possuo experiência em desenvolvimento web e mobile.</p> 
-                <p>Apaixonada por tecnologia e inovação!</p>
+                <p>Desenvolvedora de software com experiência em front-end web e mobile. </p>
+                <p>Apaixonada por programação, tecnologia e inovação!</p> 
+                <p>Em busca de novos projetos e desafios profissionais.</p>
             </div>
             <div className="about-graduate">
                 <p><span>Formação acadêmica</span></p>

@@ -1,6 +1,7 @@
 import './Projects.css';
 import project01 from '../../assets/images/portfolio.png';
 import project02 from '../../assets/images/imc.png';
+import project03 from '../../assets/images/gerador-numeros-da-sorte.png';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -20,6 +21,14 @@ const Projects = () => {
             projectLink: "https://calc-imc-theta.vercel.app",
             repoLink: "https://github.com/elanealencar/calc-imc",
           },
+          {
+            img: project03,
+            title: "Gerador de números da sorte",
+            tech: "HTML | CSS | Javascript",
+            projectLink: "https://vercel.com/elane-alencars-projects/gerador-de-numeros-da-sorte",
+            repoLink: "https://github.com/elanealencar/gerador-de-numeros-da-sorte",
+          },
+          
           
     ];
 
