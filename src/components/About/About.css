@@ -35,8 +35,7 @@
 }
 
 .about-graduate span {
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 .about-contact {
@@ -74,7 +73,7 @@
 
     .about-section .about-text {
         font-size: 16px; 
-        width: 90%; /
+        width: 90%;
     }
 
     .about-contact {
@@ -102,7 +101,7 @@
 
     .about-section .about-text {
         font-size: 14px;
-        width: 90%; 
+        width: auto; 
     }
 
     .about-contact {
@@ -123,7 +122,6 @@
     }
 
     .about-graduate {
-        font-size: 14px;
-        max-width: 80%;
-    }
+        flex-direction: column ;
+        font-size: 12px;
 }

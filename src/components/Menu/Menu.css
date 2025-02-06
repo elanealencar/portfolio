@@ -50,6 +50,10 @@
         display: block;
     }
 
+    .menu-left {
+        font-size: 18px;
+    }
+
     .menu-right {
         display: none; 
         flex-direction: column;
@@ -59,6 +63,7 @@
         background: #1c2545;
         width: 200px;
         padding: 10px;
+        font-size: 16px;
     }
 
 
@@ -74,5 +79,9 @@
     .menu-right li:hover {
         padding: 10px 0;
         text-align: center;
+    }
+
+    .about-contact {
+        padding: 0px 50px;
     }
 }
