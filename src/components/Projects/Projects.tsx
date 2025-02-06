@@ -2,6 +2,7 @@ import './Projects.css';
 import project01 from '../../assets/images/portfolio.png';
 import project02 from '../../assets/images/imc.png';
 import project03 from '../../assets/images/gerador-numeros-da-sorte.png';
+import project04 from '../../assets/images/performance.png';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -25,8 +26,15 @@ const Projects = () => {
             img: project03,
             title: "Gerador de números da sorte",
             tech: "HTML | CSS | Javascript",
-            projectLink: "https://vercel.com/elane-alencars-projects/gerador-de-numeros-da-sorte",
+            projectLink: "https://gerador-de-numeros-da-sorte.vercel.app/",
             repoLink: "https://github.com/elanealencar/gerador-de-numeros-da-sorte",
+          },
+          {
+            img: project04,
+            title: "Performance - Site Institucional",
+            tech: "HTML | CSS | Javascript",
+            projectLink: "https://performance-beryl.vercel.app/",
+            repoLink: "https://github.com/elanealencar/performancee",
           },
           
           
