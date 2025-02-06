@@ -26,7 +26,11 @@ const Projects = () => {
             img: project03,
             title: "Gerador de números da sorte",
             tech: "HTML | CSS | Javascript",
+<<<<<<< HEAD
             projectLink: "https://gerador-de-numeros-da-sorte.vercel.app/",
+=======
+            projectLink: "https://gerador-de-numeros-da-sorte.vercel.app",
+>>>>>>> 99156effba0a51cc3f42275428dee998f2b8645a
             repoLink: "https://github.com/elanealencar/gerador-de-numeros-da-sorte",
           },
           {
