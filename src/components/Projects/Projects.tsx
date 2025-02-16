@@ -12,7 +12,7 @@ const Projects = () => {
             img: project01,
             title: "Portfólio pessoal",
             tech: "HTML | CSS | JavaScript | React | Vite",
-            projectLink: "https://portfolio-two-phi-85.vercel.app/",
+            projectLink: "https://portfolio-elanealencar.vercel.app/",
             repoLink: "https://github.com/elanealencar/portfolio/",
           },
           {
@@ -33,8 +33,8 @@ const Projects = () => {
             img: project04,
             title: "Performance - Site Institucional",
             tech: "HTML | CSS | Javascript",
-            projectLink: "https://performance-beryl.vercel.app/",
-            repoLink: "https://performanceconsultoria.com/",
+            projectLink: "https://performanceconsultoria.com/",
+            repoLink: "https://github.com/elanealencar/performance",
           },
           
           
