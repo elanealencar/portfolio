@@ -8,6 +8,7 @@ import icongit from '../../assets/icons/icon-github.svg';
 import iconfigma from '../../assets/icons/icon-figma.svg';
 import iconnode from '../../assets/icons/icon-node.svg';
 import iconvscode from '../../assets/icons/icon-vscode.svg';
+import icontailwind from '../../assets/icons/icon-tailwind.svg';
 
 const habilitiesData = [
     { icon: iconhtml, name: "HTML" },
@@ -15,6 +16,7 @@ const habilitiesData = [
     { icon: iconjs, name: "JavaScript" },
     { icon: iconreact, name: "React" },
     { icon: iconreact, name: "React Native" },
+    { icon: icontailwind, name: "Tailwind" },
     { icon: icongit, name: "Git/GitHub" },
     { icon: iconfigma, name: "Figma" },
     { icon: iconnode, name: "Node.js" },
