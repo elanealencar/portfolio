@@ -34,7 +34,7 @@ const Projects = () => {
             title: "Performance - Site Institucional",
             tech: "HTML | CSS | Javascript",
             projectLink: "https://performance-beryl.vercel.app/",
-            repoLink: "https://performance.com/",
+            repoLink: "https://performanceconsultoria.com/",
           },
           
           
