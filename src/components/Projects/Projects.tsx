@@ -3,6 +3,7 @@ import project01 from '../../assets/images/portfolio.png';
 import project02 from '../../assets/images/imc.png';
 import project03 from '../../assets/images/gerador-numeros-da-sorte.png';
 import project04 from '../../assets/images/performance.png';
+import project05 from '../../assets/images/sorteador.png'
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -23,20 +24,26 @@ const Projects = () => {
             repoLink: "https://github.com/elanealencar/calc-imc",
           },
           {
-            img: project03,
-            title: "Gerador de números da sorte",
-            tech: "HTML | CSS | Javascript",
-            projectLink: "https://gerador-de-numeros-da-sorte.vercel.app",
-            repoLink: "https://github.com/elanealencar/gerador-de-numeros-da-sorte",
-          },
-          {
             img: project04,
             title: "Performance - Site Institucional",
             tech: "HTML | CSS | Javascript",
             projectLink: "https://performanceconsultoria.com/",
             repoLink: "https://github.com/elanealencar/performance",
           },
-          
+          {
+            img: project05,
+            title: "Sorteador de Duplas para Campeonato de Futevôlei",
+            tech: "HTML | Tailwind CSS | Javascript",
+            projectLink: "https://sorteio-campeonato.vercel.app/",
+            repoLink: "https://github.com/elanealencar/sorteio-campeonato",
+          },
+          {
+            img: project03,
+            title: "Gerador de números da sorte",
+            tech: "HTML | CSS | Javascript",
+            projectLink: "https://gerador-de-numeros-da-sorte.vercel.app",
+            repoLink: "https://github.com/elanealencar/gerador-de-numeros-da-sorte",
+          },
           
     ];
 
