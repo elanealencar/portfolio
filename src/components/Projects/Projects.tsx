@@ -30,7 +30,7 @@ const Projects = () => {
             tech: "HTML | Javascript | Tailwind CSS",
             projectLink: "https://avanti-landing-page.vercel.app/",
             repoLink: "https://github.com/elanealencar/avanti-landing-page"
-          }
+          },
           {
             img: previewPerformance,
             title: "Performance - Site Institucional",
