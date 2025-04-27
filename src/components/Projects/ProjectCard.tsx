@@ -2,16 +2,18 @@
 interface ProjectCardProps {
     img: string;
     title: string;
+    description: string;
     tech: string;
     projectLink: string;
     repoLink: string;
 }
 
-const ProjectCard = ({ img, title, tech, projectLink, repoLink }: ProjectCardProps) => {
+const ProjectCard = ({ img, title, description, tech, projectLink, repoLink }: ProjectCardProps) => {
     return (
         <div className="projects-card">
             <img src={img} alt={title}/>
             <div className="projects-title">{title}</div>
+            <div className="projects-tech">{description}</div>
             <div className="projects-tech">{tech}</div>
             <div className="projects-repositories">
                 <button className="button-projects"

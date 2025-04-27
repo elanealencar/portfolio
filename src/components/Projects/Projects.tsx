@@ -5,6 +5,7 @@ import previewNumeros from '../../assets/images/gerador-numeros-da-sorte.png';
 import previewPerformance from '../../assets/images/performance.png';
 import previewSorteador from '../../assets/images/sorteador.png'
 import previewAvanti from '../../assets/images/avanti_desktop.png'
+import previewBurger from '../../assets/images/burger.png'
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -12,7 +13,8 @@ const Projects = () => {
     const projectsData = [
         {
             img: previewPortfolio,
-            title: "Portfólio pessoal",
+            title: "Portfólio",
+            description: "Meu portfólio pessoal",
             tech: "HTML | CSS | JavaScript | React | Vite",
             projectLink: "https://portfolio-elanealencar.vercel.app/",
             repoLink: "https://github.com/elanealencar/portfolio/",
@@ -20,20 +22,15 @@ const Projects = () => {
           {
             img: previewImc,
             title: "Calculadora de IMC",
+            description: "Página dinâmica para cálculo do Índice de Massa Corporal (IMC)",
             tech: "HTML | CSS Modules | Typescript | React | Vite",
             projectLink: "https://calc-imc-theta.vercel.app",
             repoLink: "https://github.com/elanealencar/calc-imc",
           },
           {
-            img: previewAvanti,
-            title: "Avanti - Loja de E-commerce",
-            tech: "HTML | Javascript | Tailwind CSS",
-            projectLink: "https://avanti-landing-page.vercel.app/",
-            repoLink: "https://github.com/elanealencar/avanti-landing-page"
-          },
-          {
             img: previewPerformance,
             title: "Performance - Site Institucional",
+            description: "Site desenvolvido para uma empresa",
             tech: "HTML | CSS | Javascript",
             projectLink: "https://performanceconsultoria.com/",
             repoLink: "https://github.com/elanealencar/performance",
@@ -41,13 +38,31 @@ const Projects = () => {
           {
             img: previewSorteador,
             title: "Sorteador de Duplas para Campeonato de Futevôlei",
+            description: "Aplicação desenvolvida para uma empresa",
             tech: "HTML | Tailwind CSS | Javascript",
             projectLink: "https://sorteio-campeonato.vercel.app/",
             repoLink: "https://github.com/elanealencar/sorteio-campeonato",
           },
           {
+            img: previewAvanti,
+            title: "Avanti - Loja de E-commerce",
+            description: "Página de e-commerce responsiva para uma loja fictícia",
+            tech: "HTML | Javascript | Tailwind CSS",
+            projectLink: "https://avanti-landing-page.vercel.app/",
+            repoLink: "https://github.com/elanealencar/avanti-landing-page"
+          },
+          {
+            img: previewBurger,
+            title: "Burger Heaven",
+            description: "Página para uma hamburgueria orgânica fictícia",
+            tech: " React | Next | Typescript | Tailwind CSS",
+            projectLink: "https://burger-page-alpha.vercel.app/",
+            repoLink: "https://github.com/elanealencar/burger",
+          },
+          {
             img: previewNumeros,
             title: "Gerador de números da sorte",
+            description: "Aplicação desenvolvida para geração de números da sorte ",
             tech: "HTML | CSS | Javascript",
             projectLink: "https://gerador-de-numeros-da-sorte.vercel.app",
             repoLink: "https://github.com/elanealencar/gerador-de-numeros-da-sorte",
