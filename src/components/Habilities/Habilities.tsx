@@ -36,6 +36,15 @@ const Habilities = () => {
                  name={hability.name} />
                 ))}
             </div>
+            <div className="habilities">
+                <h2>Principais habilidades:</h2>
+                    <p> Desenvolvimento front-end com React.js e Next.js </p>
+                    <p> Aplicações mobile híbridas com React Native </p>
+                    <p>Consumo e desenvolvimento de APIs REST e integração com back-end</p>
+                    <p> Gerenciamento de estado com Context API e Redux</p>
+                    <p> Versionamento de código com Git e GitHub</p>
+                    <p> Design responsivo e otimização de performance</p>
+            </div>
         </div>  
     );
 }

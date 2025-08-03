@@ -19,7 +19,6 @@ const About = () => {
                 <p><span>Formação acadêmica</span></p>
                 <p>Pós-graduação em Desenvolvimento de Aplicações Móveis (concluída em 2024)</p>
                 <p>Pós-graduação em Desenvolvimento Full Stack (em andamento)</p>
-                <p>Graduação em Análise e Desenvolvimento de Sistemas (em andamento)</p>
             </div>
             <div className="about-contact">
                 <div className="about-contact-image">

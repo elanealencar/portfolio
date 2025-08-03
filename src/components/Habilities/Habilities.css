@@ -11,9 +11,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.habilities-section h2 {
+.habilities-section h2, .habilities h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-block: 30px;
 }
 
 .habilities-container {
@@ -44,6 +44,16 @@
 .habilities-item img {
     width: 100px;
     height: 100px;
+}
+
+.habilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;    
+    font-size: 16px;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 

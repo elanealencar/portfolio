@@ -1,5 +1,6 @@
 import './Projects.css';
 import previewPortfolio from '../../assets/images/portfolio.png';
+import previewCatalogo from '../../assets/images/catalogo.png'
 import previewImc from '../../assets/images/imc.png';
 import previewNumeros from '../../assets/images/gerador-numeros-da-sorte.png';
 import previewPerformance from '../../assets/images/performance.png';
@@ -18,6 +19,14 @@ const Projects = () => {
             tech: "HTML | CSS | JavaScript | React | Vite",
             projectLink: "https://portfolio-elanealencar.vercel.app/",
             repoLink: "https://github.com/elanealencar/portfolio/",
+          },
+          {
+            img: previewCatalogo,
+            title: "Catálogo de serviços: Aplicação Web + Mobile",
+            description: "Gerenciador de catálogo de serviços para usuários web e mobile",
+            tech: "Next.JS | Typescript | React Native | Tailwind CSS",
+            projectLink: "https://calc-imc-theta.vercel.app",
+            repoLink: "https://github.com/elanealencar/vaga-frontend-MEI-Digital/",
           },
           {
             img: previewImc,
