@@ -7,6 +7,7 @@ import previewPerformance from '../../assets/images/performance.png';
 import previewSorteador from '../../assets/images/sorteador.png'
 import previewAvanti from '../../assets/images/avanti_desktop.png'
 import previewBurger from '../../assets/images/burger.png'
+import previewNikel from '../../assets/images/nikel.png'
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -51,6 +52,14 @@ const Projects = () => {
             tech: "HTML | Tailwind CSS | Javascript",
             projectLink: "https://sorteio-campeonato.vercel.app/",
             repoLink: "https://github.com/elanealencar/sorteio-campeonato",
+          },
+          {
+            img: previewNikel,
+            title: "Nikel - Gerenciador de finanças",
+            description: "Aplicação - gerenciador de finanças com login",
+            tech: "HTML | Javascript | Bootstrap",
+            projectLink: "https://growdev-nikel.vercel.app/",
+            repoLink: "https://github.com/elanealencar/growdev-nikel"
           },
           {
             img: previewAvanti,
