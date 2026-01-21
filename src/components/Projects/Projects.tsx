@@ -8,6 +8,7 @@ import previewSorteador from '../../assets/images/sorteador.png'
 import previewAvanti from '../../assets/images/avanti_desktop.png'
 import previewBurger from '../../assets/images/burger.png'
 import previewNikel from '../../assets/images/nikel.png'
+import previewRecomendador from '../../assets/images/recomendador.png'
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -25,17 +26,17 @@ const Projects = () => {
             img: previewCatalogo,
             title: "Catálogo de serviços: Aplicação Web + Mobile",
             description: "Gerenciador de catálogo de serviços para usuários web e mobile",
-            tech: "Next.JS | Typescript | React Native | Tailwind CSS",
-            projectLink: "https://calc-imc-theta.vercel.app",
-            repoLink: "https://github.com/elanealencar/vaga-frontend-MEI-Digital/",
+            tech: "Next.JS | React | Typescript | React Native | Tailwind CSS",
+            projectLink: "",
+            repoLink: "https://github.com/elanealencar/vaga-frontend-MEI-Digital",
           },
           {
-            img: previewImc,
-            title: "Calculadora de IMC",
-            description: "Página dinâmica para cálculo do Índice de Massa Corporal (IMC)",
-            tech: "HTML | CSS Modules | Typescript | React | Vite",
-            projectLink: "https://calc-imc-theta.vercel.app",
-            repoLink: "https://github.com/elanealencar/calc-imc",
+            img: previewRecomendador,
+            title: "Recomendador de Produtos",
+            description: "Recomendador de produtos a partir das preferências e funcionalidades selecionadas pelo usuário",
+            tech: "React | Tailwind | Node | json-server",
+            projectLink: "https://recomendador-produtos-rd-station.vercel.app/",
+            repoLink: "https://github.com/elanealencar/recomendador-produtos-RD-station",
           },
           {
             img: previewPerformance,
@@ -44,6 +45,14 @@ const Projects = () => {
             tech: "HTML | CSS | Javascript",
             projectLink: "https://performanceconsultoria.com/",
             repoLink: "https://github.com/elanealencar/performance",
+          },
+          {
+            img: previewImc,
+            title: "Calculadora de IMC",
+            description: "Página dinâmica para cálculo do Índice de Massa Corporal (IMC)",
+            tech: "HTML | CSS Modules | Typescript | React | Vite",
+            projectLink: "https://calc-imc-theta.vercel.app",
+            repoLink: "https://github.com/elanealencar/calc-imc",
           },
           {
             img: previewSorteador,
