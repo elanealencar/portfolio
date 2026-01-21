@@ -9,6 +9,7 @@ import previewAvanti from '../../assets/images/avanti_desktop.png'
 import previewBurger from '../../assets/images/burger.png'
 import previewNikel from '../../assets/images/nikel.png'
 import previewRecomendador from '../../assets/images/recomendador.png'
+import previewTapputi from '../../assets/images/tapputi.jpeg'
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -41,10 +42,18 @@ const Projects = () => {
           {
             img: previewPerformance,
             title: "Performance - Site Institucional",
-            description: "Site desenvolvido para uma empresa",
+            description: "Site desenvolvido para uma empresa de consultoria ",
             tech: "HTML | CSS | Javascript",
             projectLink: "https://performanceconsultoria.com/",
             repoLink: "https://github.com/elanealencar/performance",
+          },
+          {
+            img: previewTapputi,
+            title: "Tapputi - Site E-commerce",
+            description: "E-commerce desenvolvido para uma empresa de cosméticos",
+            tech: "HTML | CSS | Javascript | Shopify",
+            projectLink: "https://tapputibrasil.com/",
+            repoLink: "",
           },
           {
             img: previewImc,
