@@ -37,7 +37,7 @@ const Projects = () => {
       {
         img: previewCurso,
         title: "Landing Page - Página de Curso",
-        description: "Site desenvolvido para venda de curso",
+        description: "Página desenvolvida para um curso presencial e online",
         tech: "HTML | Javascript | Tailwind CSS",
         projectLink: "https://performanceconsultoria.com/curso/",
         repoLink: "https://github.com/elanealencar/performance",
