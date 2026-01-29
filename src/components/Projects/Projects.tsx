@@ -134,17 +134,17 @@ const Projects = () => {
 
     
     return (
-        <div className="projects-section" id="projects-section">
-            <h1>Projetos</h1>
-                <div className="projects-cards">
-                    {projectsData.map((project) => (
-                        <ProjectCard 
-                        key={project.title}
-                        {...project}
-                        />
-                    ))}
-                </div>
-        </div>
+      <div className="projects-section" id="projects-section">
+          <h1>Projetos</h1>
+            <div className="projects-cards">
+                {projectsData.map((project) => (
+                    <ProjectCard 
+                    key={project.title}
+                    {...project}
+                    />
+                ))}
+            </div>
+      </div>
     );
 };
 
