@@ -10,8 +10,8 @@ const Initial = () => {
                 <p>Olá, eu sou</p>
                 <h1>Elane</h1>
                 <h1>Alencar</h1>
-                <h2>Desenvolvedora Front-End</h2>
-                <p>Web | Mobile</p>
+                <h2>Desenvolvedora de Software</h2>
+                <p>Frontend | Fullstack</p>
                 <button className="initial-button"
                     onClick={() => window.open("https://linkedin.com/in/elanealencar", "_blank")}>  
                     <span className="button-text">Linkedin</span>

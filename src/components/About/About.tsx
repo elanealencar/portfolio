@@ -1,6 +1,6 @@
 import './About.css';
 import iconName from '../../assets/icons/icon-name.svg';
-import iconInstagram from '../../assets/icons/icon-instagram.svg';
+import iconGithub from '../../assets/icons/icon-github.png';
 import iconLinkedin from '../../assets/icons/icon-linkedin.svg';
 import imageElane from '../../assets/images/image-elane.png';
 
@@ -11,9 +11,8 @@ const About = () => {
         <section className="about-section" id="about-section">
             <h1>Sobre Mim</h1>
             <div className="about-text">
-                <p>Desenvolvedora de software com experiência em front-end web e mobile. </p>
-                <p>Apaixonada por programação, tecnologia e inovação!</p> 
-                <p>Em busca de novos projetos e desafios profissionais.</p>
+                <p>Sou desenvolvedora de software com foco em Front-end e vivência Full Stack.</p>
+                <p>Gosto de resolver problemas reais com tecnologia, valorizando performance, acessibilidade e boa experiência do usuário.</p>
             </div>
             <div className="about-graduate">
                 <p><span>Formação acadêmica</span></p>
@@ -32,9 +31,11 @@ const About = () => {
                 </div>
                 
                 <div className="about-contact-item">
-                    <img src={iconInstagram} alt="Ícone do Instagram" />
-                    <h3>Instagram</h3>
-                    <div>@dev.elane</div>
+                    <a href='https://github.com/elanealencar' target="_blank" rel="noopener noreferrer">
+                        <img src={iconGithub} alt="Ícone do Github" />
+                        <h3>Github</h3>
+                        <div>elanealencar</div>
+                    </a>
                 </div>
                 <div className="about-contact-item">
                     <a href='https://linkedin.com/in/elanealencar' target="_blank" rel="noopener noreferrer">
