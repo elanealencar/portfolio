@@ -10,7 +10,7 @@ import previewAvanti from '../../assets/images/avanti_desktop.png'
 import previewBurger from '../../assets/images/burger.png'
 import previewNikel from '../../assets/images/nikel.png'
 import previewRecomendador from '../../assets/images/recomendador.png'
-import previewTapputi from '../../assets/images/tapputi.jpeg'
+import previewTapputi from '../../assets/images/tapputi.png'
 import previewCurso from '../../assets/images/curso-performance.png'
 import previewLacrei from '../../assets/images/lacrei.png'
 import ProjectCard from './ProjectCard';
