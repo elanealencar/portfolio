@@ -20,7 +20,6 @@
     align-items: start;
     max-width: 900px;
     margin: 0 auto;
-
 }
 
 .projects-card {
@@ -34,8 +33,7 @@
 .projects-card img {
     width: 100%;
     height: 200px;
-    border: 1px solid white;
-
+    border: 4px solid #206e95;
 }
 
 .projects-title {
