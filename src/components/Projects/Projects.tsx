@@ -13,6 +13,7 @@ import previewRecomendador from '../../assets/images/recomendador.png'
 import previewTapputi from '../../assets/images/tapputi.png'
 import previewCurso from '../../assets/images/curso-performance.png'
 import previewLacrei from '../../assets/images/lacrei.png'
+import previewUncodeStore from '../../assets/images/uncode-store.png'
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -21,7 +22,7 @@ const Projects = () => {
       {
         img: previewPortfolio,
         title: "Portfólio Pessoal",
-        description: "Meu portfólio pessoal",
+        description: "Meu portfólio pessoal com projetos, habilidades e informações",
         tech: "HTML | CSS | JavaScript | React | Vite",
         projectLink: "https://portfolio-elanealencar.vercel.app/",
         repoLink: "https://github.com/elanealencar/portfolio/",
@@ -29,7 +30,7 @@ const Projects = () => {
       {
           img: previewLacrei,
           title: "Lacrei Saúde",
-          description: "Plataforma que conecta profissionais da saúde à pacientes população LGBTQIA+ de forma inclusiva e acolhedora. Atuo como desenvolvedora e mentora do time de front-end.",
+          description: "Plataforma que conecta profissionais da saúde à pacientes população LGBTQIA+ de forma inclusiva e acolhedora. Atuei como desenvolvedora e mentora do time de front-end.",
           tech: "Next.JS | React | Typescript | Node.js",
           projectLink: "https://lacreisaude.com.br/",
           repoLink: "https://github.com/Lacrei",
@@ -37,7 +38,7 @@ const Projects = () => {
       {
         img: previewCurso,
         title: "Landing Page - Página de Curso",
-        description: "Página desenvolvida para um curso presencial e online",
+        description: "Página desenvolvida para um curso presencial e online, com design responsivo e interatividade. Apresenta integração com check-out para aquisição e pagamento.",
         tech: "HTML | Javascript | Tailwind CSS",
         projectLink: "https://performanceconsultoria.com/curso/",
         repoLink: "https://github.com/elanealencar/performance",
@@ -45,7 +46,7 @@ const Projects = () => {
       {
         img: previewPerformance,
         title: "Performance - Site Institucional",
-        description: "Site desenvolvido para uma empresa de consultoria",
+        description: "Site desenvolvido para uma empresa de consultoria, com design responsivo e interatividade.",
         tech: "HTML | CSS | Javascript",
         projectLink: "https://performanceconsultoria.com/",
         repoLink: "https://github.com/elanealencar/performance",
@@ -61,10 +62,18 @@ const Projects = () => {
       {
         img: previewTapputi,
         title: "Tapputi - Site E-commerce",
-        description: "E-commerce desenvolvido para uma empresa de cosméticos",
+        description: "E-commerce desenvolvido para uma empresa de cosméticos. Apresenta página inicial e dos produtos, com integração ao carrinho e checkout de pagamentos.",
         tech: "HTML | CSS | Javascript | Shopify",
         projectLink: "https://tapputibrasil.com/",
         repoLink: "",
+      },
+      {
+        img: previewUncodeStore,
+        title: "Uncode Store - Site E-commerce",
+        description: "E-commerce fictício de produtos dev, com carrinho de compras e detalhes dos produtos.",
+        tech: "Next.js | React | Context API | Tailwind | Cypress",
+        projectLink: "https://uncode-ecommerce.vercel.app/",
+        repoLink: "https://github.com/elanealencar/uncode-dev-2026",
       },
       {
         img: previewCatalogo,
