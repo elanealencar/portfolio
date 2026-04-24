@@ -47,7 +47,7 @@ const Projects = () => {
       {
         img: previewChecklist,
         title: "Sistema de Autoinspeção e Maturidade BPF",
-        description: "Sistema desenvolvido para uso real em indústrias de cosméticos e saneantescom foco na avaliação contínua de conformidade com as Boas Práticas de Fabricação (RDC 47 e 48/2013). O sistema permite a execução de checklists dinâmicos (semanal, mensal e semestral), cálculo automático de indicadores, classificação por nível de maturidade e geração de diagnósticos estratégicos, transformando processos antes subjetivos em dados mensuráveis e acionáveis.",
+        description: "Sistema desenvolvido para uso real em indústrias de cosméticos e saneantescom foco na avaliação contínua de conformidade com as Boas Práticas de Fabricação. O sistema permite a execução de checklists dinâmicos, cálculo automático de indicadores, classificação por nível de maturidade e geração de diagnósticos estratégicos.",
         tech: "React | Vite | TypeScript | Tailwind CSS",
         projectLink: "https://performanceconsultoria.com/checklist/",
         repoLink: "https://github.com/elanealencar/performance",
