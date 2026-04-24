@@ -8,6 +8,7 @@ import previewPerformance from '../../assets/images/performance.png';
 import previewSorteador from '../../assets/images/sorteador.png'
 import previewAvanti from '../../assets/images/avanti_desktop.png'
 import previewBurger from '../../assets/images/burger.png'
+import previewChecklist from '../../assets/images/checklist.png'
 import previewNikel from '../../assets/images/nikel.png'
 import previewRecomendador from '../../assets/images/recomendador.png'
 import previewTapputi from '../../assets/images/tapputi.png'
@@ -41,6 +42,14 @@ const Projects = () => {
         description: "Página desenvolvida para um curso presencial e online, com design responsivo e interatividade. Apresenta integração com check-out para aquisição e pagamento.",
         tech: "HTML | Javascript | Tailwind CSS",
         projectLink: "https://performanceconsultoria.com/curso/",
+        repoLink: "https://github.com/elanealencar/performance/tree/main/dist/curso",
+      },
+      {
+        img: previewChecklist,
+        title: "Sistema de Autoinspeção e Maturidade BPF",
+        description: "Sistema desenvolvido para uso real em indústrias de cosméticos e saneantescom foco na avaliação contínua de conformidade com as Boas Práticas de Fabricação (RDC 47 e 48/2013). O sistema permite a execução de checklists dinâmicos (semanal, mensal e semestral), cálculo automático de indicadores, classificação por nível de maturidade e geração de diagnósticos estratégicos, transformando processos antes subjetivos em dados mensuráveis e acionáveis.",
+        tech: "React | Vite | TypeScript | Tailwind CSS",
+        projectLink: "https://performanceconsultoria.com/checklist/",
         repoLink: "https://github.com/elanealencar/performance",
       },
       {
